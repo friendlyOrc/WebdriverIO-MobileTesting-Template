@@ -8,11 +8,8 @@ Required software:
 - Appium Inspector
 - Node JS
 
-Clone the repository:
+Clone the repository
 
-```sh
-git clone https://github.com/Zimplistic/testscripts-rotimatic-app.git
-```
 Install NPM packages:
 
 ```sh
@@ -20,18 +17,17 @@ npm install
 ```
 ### Run tests
 
-Run appium
-
-```sh
-appium
-```
-
 Run android
 
-- Open Android Studio
+- Open Android Studio, setting up simulator and change the Android config
 
 ```sh
 npm run android
+```
+- Same step with iOS
+
+```sh
+npm run ios
 ```
 
 
